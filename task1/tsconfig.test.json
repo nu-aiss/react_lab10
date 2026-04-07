@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node16",
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+      "ignoreDeprecations": "6.0"
+    },
+    "include": ["src", "jest.setup.ts"]
+  }
